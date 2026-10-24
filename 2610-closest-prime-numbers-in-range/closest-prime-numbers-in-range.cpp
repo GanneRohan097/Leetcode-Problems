@@ -22,9 +22,6 @@ public:
         if(pList.size()==2){
             return pList;
         }
-        for(int i:pList){
-            cout << i << " ";
-        }
         int mn = pList[1] - pList[0];
         res[0] = pList[0];
         res[1] = pList[1];
